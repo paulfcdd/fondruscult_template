@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+@font-face {
+  font-family: 'Century Gothic Regular';
+  src: url(../fonts/CenturyGothicRegular.ttf);
+}
+@font-face {
+  font-family: 'Bebas Bold';
+  src: url(../fonts/bebas_neue_bold.otf);
+}
+@font-face {
+  font-family: 'Bebas Ligth';
+  src: url(../fonts/bebas_neue_light.otf);
+}
+@font-face {
+  font-family: 'Bebas Book';
+  src: url(../fonts/BebasNeue_Book.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  font: 14px/20px Arial, sans-serif;
+  padding: 20px 100px;
+  /* Custom classes*/
+  /* End custom classes*/
+  /* Responsive classes*/
+}
+.wrapper .page-breadcrumbs {
+  background: none;
+  border: none;
+  color: #F0DEBA;
+  font-size: 18px;
+  border-bottom: 1px solid black;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 0;
+}
+.wrapper .page-breadcrumbs .active {
+  color: #000000;
+}
+.wrapper .page-breadcrumbs a {
+  color: #D22630;
+}
+@media only screen and (max-width: 479px) {
+  .wrapper {
+    padding: 0;
+  }
+}
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+  .wrapper .modal-gallery {
+    width: 75%;
+  }
+}
+.wrapper .modal-gallery-image-thumbnail {
+  padding: 20px 0;
+}
+@media only screen and (max-width: 479px) {
+  .wrapper .modal-gallery-image-thumbnail {
+    padding: 10px 0;
+  }
+}
+.wrapper .modal-gallery-image-thumbnail img {
+  width: 50%;
+}
+.wrapper .pointer {
+  cursor: pointer;
+}
+.wrapper .pointer:hover {
+  cursor: pointer;
+}
+.wrapper .event-info-block {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+.wrapper .event-info-block h4,
+.wrapper .event-info-block h5 {
+  color: black !important;
+}
+.wrapper .intl-tel-input,
+.wrapper .allow-dropdown {
+  width: 100%;
+}
+.wrapper .no-resize {
+  resize: none;
+}
+.wrapper .showSweetAlert {
+  border-radius: 0 !important;
+}
+.wrapper button.cancel,
+.wrapper button.confirm {
+  border-radius: 0 !important;
+}
+.wrapper .media-object {
+  width: 15em !important;
+  height: 15em !important;
+  border-radius: 50% !important;
+  margin-right: 15px !important;
+}
+.wrapper .no-border-radius {
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+.wrapper .label-underscored {
+  color: #6B3E21;
+  display: inline-block;
+  line-height: 33px;
+  font-size: 30px;
+  font-weight: 500;
+  font-style: normal;
+  border-bottom: 2px solid #d22027;
+  font-family: 'Bebas Book';
+}
+.wrapper .read-more-link {
+  color: #D22630;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 26px;
+}
+.wrapper .fa-6x {
+  font-size: 6em;
+}
+.wrapper .fa-7x {
+  font-size: 7em;
+}
+.wrapper .fa-8x {
+  font-size: 8em;
+}
+.wrapper .fa-9x {
+  font-size: 9em;
+}
+.wrapper .fa-10x {
+  font-size: 10em;
+}
+.wrapper .padding-0-100px {
+  padding: 0 100px;
+}
+@media only screen and (max-width: 479px) {
+  .wrapper .padding-0-100px {
+    padding: 0;
+  }
+}
+.wrapper .padding-left-100px {
+  padding-left: 100px;
+  padding-right: 0;
+}
+@media only screen and (max-width: 479px) {
+  .wrapper .padding-left-100px {
+    padding: 0;
+  }
+}
+.wrapper .padding-left-0 {
+  padding-left: 0;
+}
+.wrapper .padding-right-0 {
+  padding-right: 0;
+}
+.wrapper .margin-left-0 {
+  margin-left: 0;
+}
+.wrapper .margin-right-0 {
+  margin-right: 0;
+}
+.wrapper .padding-left-15px {
+  padding-left: 15px;
+}
+.wrapper .padding-right-15px {
+  padding-right: 15px;
+}
+.wrapper .letter-spacing-1px {
+  letter-spacing: 1px;
+}
+.wrapper .padding-0-50px {
+  padding: 0 50px;
+}
+@media only screen and (max-width: 479px) {
+  .wrapper .padding-0-50px {
+    padding: 0;
+  }
+}
+.wrapper .padding-top-20px {
+  padding-top: 20px;
+}
+.wrapper .index-page-banner {
+  padding-left: 0;
+  padding-right: 0;
+}
+.wrapper .space-fix-container {
+  margin: 30px 0;
+}
+.wrapper .space-fix-container-2x {
+  margin: 60px 0;
+}
+.wrapper .nowrap {
+  white-space: nowrap;
+}
+.wrapper .underscored-label {
+  color: #6B3E21;
+  display: inline-block;
+  line-height: 33px;
+  font-size: 30px;
+  font-weight: 500;
+  font-style: normal;
+  border-bottom: 2px solid #d22027;
+  font-family: 'Bebas Book';
+}
+@media only screen and (max-width: 479px) {
+  .wrapper .xs-padding-0-10px {
+    padding: 0 10px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .wrapper .xs-margin-left-0 {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .wrapper .xs-margin-right-0 {
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .wrapper .xs-width-100 {
+    width: 100%;
+  }
+}
+.wrapper .content {
+  flex: 1 0 auto;
+  border-radius: 5px;
+  margin-right: 0;
+}
+.wrapper .content #main-banner-index {
+  height: 390px;
+}
+@media only screen and (max-width: 479px) {
+  .wrapper .content #main-banner-index {
+    height: 100px;
+  }
+}
+.wrapper .content .custom-indicators {
+  position: sticky;
+  z-index: 15;
+  padding-left: 0;
+  width: auto;
+  left: 50%;
+  text-align: center;
+  list-style: none;
+}
+.wrapper .content .banner-text {
+  background: grey;
+  opacity: .8;
+  position: absolute;
+  bottom: 30%;
+  right: 0;
+  padding: 0 0 0 10px;
+}
+.wrapper .content .banner-text h3 {
+  padding-left: 10px;
+  color: white;
+  opacity: 1;
+  font-size: 24pt;
+  line-height: 20pt;
+  font-family: 'Bebas Bold';
+}
+.wrapper .content #main-text-under-banner .banner-content-block {
+  font-family: 'Century Gothic Regular';
+  font-size: 15px;
+  color: #6B3E21;
+  line-height: 21px;
+  font-weight: normal;
+  font-style: normal;
+}
+.wrapper .content #main-text-under-banner .banner-content-block .content-block-row {
+  padding: 0;
+  white-space: nowrap;
+}
+@media only screen and (max-width: 479px) {
+  .wrapper .content #main-text-under-banner .banner-content-block .content-block-row {
+    white-space: normal;
+  }
+}
